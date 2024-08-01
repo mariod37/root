@@ -1,5 +1,5 @@
 import "./style.css";
-export const header = () => {
+export function header () {
   document.querySelector(".header").innerHTML = `
 
     <div class="caontainer-fluid" >
